@@ -1,5 +1,6 @@
-pandas
-flask
+pandas==1.5.1
+Flask==2.2.2
 inflection
-xgboost==1.5.0
-scikit-learn
+xgboost==1.6.3
+scikit-learn==1.1.2
+pickleshare==0.7.5
