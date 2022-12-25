@@ -1,6 +1,6 @@
 pandas==1.5.1
 Flask==2.2.2
 inflection
-xgboost==1.6.3
+xgboost==1.6.2
 scikit-learn==1.1.2
 pickleshare==0.7.5
