@@ -1,6 +1,5 @@
 pandas
-numpy
 flask
 inflection
 xgboost
-sklearn
+scikit-learn
