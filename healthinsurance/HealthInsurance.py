@@ -92,8 +92,7 @@ class HealthInsurance(object):
         dataframe_original['propensity_score'] = propensity_score[ : , 1].tolist()
             
         # Rankeamento
-        dataframe_original = dataframe_original.sort_values(by=['propensity_score'], 
-                                                            ascending=False).reset_index(drop=True)
+        dataframe_original = dataframe_original.sort_values(by=['propensity_score'], ascending=False).reset_index(drop=True)
 
         # colunas importantes
          dataframe_original = dataframe_original[['id', 'propensity_score']]
