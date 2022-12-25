@@ -95,7 +95,7 @@ class HealthInsurance(object):
         dataframe_original = dataframe_original.sort_values(by=['propensity_score'], ascending=False).reset_index(drop=True)
 
         # colunas importantes
-         dataframe_original = dataframe_original[['id', 'propensity_score']]
+        dataframe_original = dataframe_original[['id', 'propensity_score']]
 
         # Criar a coluna ranking
         dataframe_original['ranking'] = dataframe_original.index + 1
